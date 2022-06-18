@@ -1,0 +1,21 @@
+{
+  "name": "urlshort",
+  "version": "1.0.0",
+  "description": "Shortens the url",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "install-client" : "npm install",
+    "heroku-postbuild": "npm run install-client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.7",
+    "shortid": "^2.2.16"
+  }
+}
